@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Change this',
-  tagline: 'Change this too2',
+  tagline: 'Change this too',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
