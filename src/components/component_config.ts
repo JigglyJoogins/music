@@ -1,3 +1,3 @@
 export const config = {
-    musicMetadataGistId: 'c08735c94ea22d383625d5ef8a86d4c0'
+    musicMetadataGistId: '170f94654a7056fa59dfa6202913c89d'
 } as const;
