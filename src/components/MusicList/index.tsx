@@ -1,4 +1,4 @@
-import { useEffect, useState } from "preact/hooks";
+import { useEffect, useState } from "react";
 import { config } from '@site/src/components/component_config';
 import styles from './styles.module.css';
 
@@ -24,10 +24,10 @@ export default function MusicList(): React.JSX.Element {
   
     return (
         <div>
-            {data['files'].map((entry) => (
-                <div key={entry['id']}>
-                    <h3>{entry['name']}</h3>
-                    <iframe className={styles.music} src={`https://drive.google.com/file/d/${entry['id']}/preview`}></iframe>
+            {data.files.map((entry) => (
+                <div key={entry.id}>
+                    <h3>{entry.name}</h3>
+                    <iframe className={styles.music} src={`https://drive.google.com/file/d/${entry.id}/preview`}></iframe>
                 </div>
             ))}
         </div>
