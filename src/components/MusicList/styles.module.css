@@ -1,0 +1,8 @@
+.music {
+    width: 429px;
+    height: 56px;
+    border: none;
+    margin: -12px -52px -16px -52px;
+    clip-path: inset(12px 52px 12px 52px round 5px);
+    filter: invert(1);
+}
