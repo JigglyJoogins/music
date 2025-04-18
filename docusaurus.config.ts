@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Music!!',
-  tagline: 'Change this too',
+  tagline: 'I like music!!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
